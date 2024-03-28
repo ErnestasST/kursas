@@ -4,10 +4,10 @@ Sugeneruokite dict iš 10 skaitmenų (keys): 1,2,3...10. Kiekvienam key turėtų
 
 import random
 
-n_dict = {}
+n_dictt = {}
 
 for i in range(1, 11):
 
-   n_dict[i] = random.randint(1, 100)
+   n_dictt[i] = random.randint(1, 100)
 
-print(n_dict)
+print(n_dictt)
