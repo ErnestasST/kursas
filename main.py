@@ -61,23 +61,23 @@
 
 # enter_numbers()
 
-c = 5
+# c = 5
 
-def do_something(a, b):
-    global c
-    d = 7
-    def naujas():
-        nonlocal d
-    print(a, b, c)
-    c = 8
-    print(c)
+# def do_something(a, b):
+#     global c
+#     d = 7
+#     def naujas():
+#         nonlocal d
+#     print(a, b, c)
+#     c = 8
+#     print(c)
+#
+#
+# do_something(5, 10)
+# print(c)
 
 
-do_something(5, 10)
-print(c)
-
-
-def do_something(a, b, c, *args, **kwargs):
+# def do_something(a, b, c, *args, **kwargs):
     # print("funkcijos")
     # print(a, b, c)
     # print(args, (type(args)))
@@ -85,16 +85,16 @@ def do_something(a, b, c, *args, **kwargs):
     #     print(arg)
     #
     #     print(kwargs, type(kwargs))
-    if "word" in kwargs:
-        print("word exists")
-    print("viskas")
-
-
-def another_function(a, **kwargs):
-    print(a)
-    print(kwargs)
-
-
-do_something(a=1, b=2, z=3, y=8, word=9, c=99)
-
-another_function(9, bull=10)
+#     if "word" in kwargs:
+#         print("word exists")
+#     print("viskas")
+#
+#
+# def another_function(a, **kwargs):
+#     print(a)
+#     print(kwargs)
+#
+#
+# do_something(a=1, b=2, z=3, y=8, word=9, c=99)
+#
+# another_function(9, bull=10)
